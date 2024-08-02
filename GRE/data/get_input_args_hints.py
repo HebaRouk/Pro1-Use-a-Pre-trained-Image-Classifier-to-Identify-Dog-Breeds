@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/get_input_args_hints.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                   
+# PROGRAMMER: Heba Rouk 
+# DATE CREATED:   2/8/2024                                
 # REVISED DATE: 
 # PURPOSE: This is a *hints* file to help guide students in creating the 
 #          function that retrieves the following 3 command line inputs from
@@ -54,6 +54,7 @@ def get_input_args():
     #          --dogfile - text file of names of dog breeds
     parser.add_argument('--arch', default = 'vgg' )
     parser.add_argument('--dogfile', default = 'dognames.txt' )
+    ####################################################
 
     # TODO: 1b. Replace None with parser.parse_args() parsed argument 
     # collection that you created with this function 
