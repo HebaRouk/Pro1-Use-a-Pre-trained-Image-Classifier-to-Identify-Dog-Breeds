@@ -82,7 +82,7 @@ def calculates_results_stats(results_dic):
         #pet_image_label is dog , label match -counts correct bread
         if results_dic[key][3] ==1 and results_dic[key][2] == 1:
                 results_stats_dic['n_correct_breed'] +=1
-        #// // - number of dog images
+        ###########
 
         if results_dic[key][3]==1:
            results_stats_dic['n_dogs_img'] +=1
