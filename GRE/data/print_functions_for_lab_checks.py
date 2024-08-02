@@ -59,7 +59,7 @@ def check_creating_pet_image_labels(results_dic):
         print("\nPet Image Label Dictionary has", len(results_dic),
               "key-value pairs.\nBelow are", stop_point, "of them:")
     
-        # counter - to count how many labels have been printed
+        # counter::to count how many labels have been printed
         n = 0
     
         # for loop to iterate through the dictionary
