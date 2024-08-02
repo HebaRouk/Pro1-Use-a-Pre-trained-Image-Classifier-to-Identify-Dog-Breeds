@@ -81,3 +81,4 @@ def classify_images(images_dir, results_dic, model):
         results_dic[img_file].extend((model_label,0)) 
     print(results_dic)
    # return None
+###############################################
