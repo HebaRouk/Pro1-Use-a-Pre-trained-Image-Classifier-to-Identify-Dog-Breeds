@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/get_pet_labels_hints.py
 #                                                                             
-# PROGRAMMER: 
-# DATE CREATED:                                  
+# PROGRAMMER: Heba Rouk
+# DATE CREATED:  2/8/2024                                
 # REVISED DATE: 
 # PURPOSE: This is a *hints* file to help guide students in creating the 
 #          function get_pet_labels that creates the pet labels from the image's
@@ -83,3 +83,4 @@ def get_pet_labels(image_dir):
     # TODO 2b. Replace None with the results_dic dictionary that you created
     # with this function
     return None
+##########################################
