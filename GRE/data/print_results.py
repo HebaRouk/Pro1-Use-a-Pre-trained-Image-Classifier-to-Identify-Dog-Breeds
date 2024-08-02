@@ -60,6 +60,7 @@ def print_results(results_dic, results_stats_dic, model,
                                  print("Real: {:>26} cassifier: {:>30}".format(results_dic[key][0],results_dic[key][1]))    
    
 
+####################################
 
 
 
@@ -74,36 +75,3 @@ def print_results(results_dic, results_stats_dic, model,
 
 
 
-
-
- # for key in results_stats_dic:
-  #      if key. == 'p':
-           # print('{}: {}'.format(key,results_stats_dic[key]))
-    #if print_incorrect_dogs == True and (results_stats_dic['n_correct_dogs'] + results_stats_dic['n_correct_notdogs'] != results_stats_dic['n_images']):
-       # for key in results_dic:
-       #     if sum(results_dic[key][3:]) == 1:
-           #    print('\nmiss classified DOGS: \n pet Image Label: {} \n classifier Label: {}'.format( results_dic[key][0], results_dic[key][1]))
-    #if print_incorrect_breed == True and (results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_breed']):
-      #  for key in results_dic:
-           # if sum(results_dic[key][3:]) == 2 and results_dic[key][2] == 0:
-             #   print('\nmiss classified Breeds: \n pet Image Label: {} \n classifier Label: {}'.format(results_dic[key][0], results_dic[key][1]))
-      
-    
-      
-
-      #for key in results_stats_dic:
-        #  if key.startwith('p'):
-         #    print("{}:{}".format(key,results_stats_dic[key]))
-    #  if print_incorrect_dogs and (results_stats_dic['n_correct_dogs'] + results_stats_dic['n_correct_notdogs'] !=results_stats_dic['n_images']):
-     #    print("\n not dog")
-      #  for key in results_dic:
-       #     if sum(results_dic[key][3:]) ==1:
-        #       print("Real: {:>26} classifier: {:>30}".format(results_dic[key][0],results_dic[key][1]))
-       #if print_incorrect_breed and (results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_breed']):
-        # print("\nIncorrectly classified Dog Breeds:")
-         #for key in results_dic:
-          #   if sum(results_dic[key][3:]) == 2 and results_dic[key][2]==0:
-           #     print("Real: {:>26} cassifier: {:>30}".format(results_dic[key][0],results_dic[key][1]))    
-            #    '''                       
-    
-                
