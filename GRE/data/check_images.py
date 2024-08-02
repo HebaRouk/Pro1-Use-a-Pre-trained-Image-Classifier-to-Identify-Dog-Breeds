@@ -3,8 +3,8 @@
 # */AIPND-revision/intropyproject-classify-pet-images/check_images.py
 #
 # TODO 0: Add your information below for Programmer & Date Created.                                                                             
-# PROGRAMMER:Fatima AbuReesh 
-# DATE CREATED:  22/5/2024                                
+# PROGRAMMER:Heba Rouk
+# DATE CREATED: 2/8/2024                                
 # REVISED DATE: 
 # PURPOSE: Classifies pet images using a pretrained CNN model, compares these
 #          classifications to the true identity of the pets in the images, and
