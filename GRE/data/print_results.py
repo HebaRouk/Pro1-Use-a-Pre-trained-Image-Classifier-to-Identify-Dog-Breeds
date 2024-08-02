@@ -71,6 +71,11 @@ def print_results(results_dic, results_stats_dic, model,
 
 
 
+
+
+
+
+
  # for key in results_stats_dic:
   #      if key. == 'p':
            # print('{}: {}'.format(key,results_stats_dic[key]))
@@ -83,7 +88,7 @@ def print_results(results_dic, results_stats_dic, model,
            # if sum(results_dic[key][3:]) == 2 and results_dic[key][2] == 0:
              #   print('\nmiss classified Breeds: \n pet Image Label: {} \n classifier Label: {}'.format(results_dic[key][0], results_dic[key][1]))
       
-      
+    
       
 
       #for key in results_stats_dic:
